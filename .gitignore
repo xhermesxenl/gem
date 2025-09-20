@@ -12,11 +12,13 @@
 .swiftpm/
 migrate_working_dir/
 
-# IntelliJ related
+# IDE related
 *.iml
 *.ipr
 *.iws
 .idea/
+.vscode/
+
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -43,3 +45,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Android build
+android/.gradle/
+android/build/
+android/app/build/
+
+# Local config (ne jamais commit)
+android/local.properties
+android/key.properties
+
+# Google services config
+android/app/google-services.json
